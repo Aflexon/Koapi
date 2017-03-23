@@ -1,0 +1,27 @@
+{
+  "name": "soroban-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "koa": "^2.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-logger": "^2.0.1",
+    "koa-ratelimit": "^4.0.0",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "pluralize": "^4.0.0",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}
